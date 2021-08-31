@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
+import 'package:shop_app/const/methods.dart';
 import 'package:shop_app/const/myconst.dart';
 import 'package:shop_app/cubit_login/login_cubit.dart';
 import 'package:shop_app/cubit_login/login_states.dart';
 import 'package:shop_app/screens/layout.dart';
+import 'package:shop_app/screens/signup.dart';
 import 'package:shop_app/shared/shared_pre.dart';
 
 class login extends StatefulWidget {
@@ -159,10 +161,14 @@ class _State extends State<login> {
                   ),
                   Center(
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+
                       children: [
                         TextButton(
-                            onPressed: () {},
-                            child: Text("ممكن تسجل واحد جديد دلوقتي   ")),
+                            onPressed: () {
+                              navpushreplas(signup(), context);
+                            },
+                            child: Text("ممكن تسجل واحد جديد دلوقتي")),
                         Text("معندكش اكونت ؟"),
                       ],
                     ),

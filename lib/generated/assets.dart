@@ -6,6 +6,7 @@ class Assets {
   static const String APIProductsModel = 'lib/API/products_model.dart';
   static const String APIShopLoginModel = 'lib/API/shop_login_model.dart';
   static const String WidgetWidget = 'lib/Widget/widget.dart';
+  static const String constMethods = 'lib/const/methods.dart';
   static const String constMyconst = 'lib/const/myconst.dart';
   static const String cubitLayoutLayoutCubit = 'lib/cubit_layout/layout_cubit.dart';
   static const String cubitLayoutLayoutStates = 'lib/cubit_layout/layout_states.dart';
@@ -28,6 +29,7 @@ class Assets {
   static const String screensProductsHome = 'lib/screens/products_home.dart';
   static const String screensSearch = 'lib/screens/search.dart';
   static const String screensSetting = 'lib/screens/setting.dart';
+  static const String screensSignup = 'lib/screens/signup.dart';
   static const String sharedSharedPre = 'lib/shared/shared_pre.dart';
   static const String themeThemedata = 'lib/theme/themedata.dart';
 
